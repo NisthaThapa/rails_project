@@ -1,11 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Welcome to HomePage!</h1>
-<h2>Rails is a web application development framework written in the Ruby programming language</h2>
+<h1>Check your typing speed and accuracy</h1>
+<h2 id="text"></h2>
 
-<input id="textarea" name="text" type="text" />
 
-<div id="words_count_container"></div>
+<textarea name="txtScript" id="word_count" cols="1" rows="1" placeholder="Type above text here.."></textarea>
+Total word Count : <span id="display_count">0</span> words,<span id="display_time">0 min</span><br>
+Accuracy : <span id="accuracy"></span>
+<div id="display_words"></div>
+
 
 <table>
   <thead>
@@ -27,4 +30,4 @@
 
 <br>
 
-<%= link_to 'Sign Out', sign_out_path %>
+<span class="signout"><%= link_to 'Sign Out', sign_out_path %></span>

@@ -14,8 +14,28 @@
  *= require_self
  */
 
-#textarea{
+#word_count{
     height: 50px;
     width: 100%;
     font-size: 20px;
+}
+h1{
+    color: brown;
+    font-weight: normal;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#text{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.signout a{
+    color: brown;
+    font-weight: 600;
+}
+
+.signout a:hover{
+    background-color: white;
+    color: blue;
 }
